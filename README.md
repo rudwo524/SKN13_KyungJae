@@ -10,9 +10,8 @@ SK Network 13기 과정 수업소스
 
 
 
-## 2주차
-### 0331
-
+# 2주차
+## 0331
 
 
 
@@ -80,7 +79,7 @@ pip show pandas : install 된 것의 license를 출력해줌
 - 코드를 잘못 작성한 경우로 코드를 수정해야한다.
 - 보통 이런 오류는 컴파일 방식 언어의 경우 컴파일 때 에러를 내서 수정하도록 한다.
 
-#### Exception Handling(예외 처리)
+### Exception Handling(예외 처리)
 
   Exception: 함수나 메소드가 처리 도중 다음 명령문을 실행할 수 없는 상황
 
@@ -92,6 +91,19 @@ pip show pandas : install 된 것의 license를 출력해줌
 ### try, except 구문
 
 ![image](https://github.com/user-attachments/assets/df82a14f-996e-4570-a8a0-e3ee7f2997b5)
+
+
+### finally 구문
+- 예외 발생여부, 처리 여부와 관계없이 무조건 실행되는 코드블록
+    - try 구문에 **반드시 실행되야 하는 코드블록을 작성할때 사용한다.**
+    - 보통 프로그램이 외부자원과 연결해서 데이터를 주고 받는 작업을 할때 마지막 연결을 종료하는 작업을 finally 블록에 넣는다.
+- finally 는 except 보다 먼저 올 수 없다.
+    - 구문순서
+        1. try - except - finally
+        2. try - except
+        3. try - finally
+
+
 
 
 
