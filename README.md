@@ -104,7 +104,8 @@ pip show pandas : install 된 것의 license를 출력해줌
         3. try - finally
 
 
-
-
-
+### Call Stack Mechanism
+Data Structure
+  - Stack: First-In-Last-Out
+  - Queue: First-In-First-Out
 
