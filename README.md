@@ -44,15 +44,15 @@ import 구문: [from 사용할 것의 경로] import 사용할 것 [as 별칭] [
 
 
 
-import mypackage.weight_helper, mypackage.calculator \n
-mypackage.weight_helper.check_bmi(1.7, 60) \n
-mypackage.calculator.plus(10, 20)
+#### import mypackage.weight_helper, mypackage.calculator
+#### mypackage.weight_helper.check_bmi(1.7, 60)
+#### mypackage.calculator.plus(10, 20)
 
 에 비해 from 절을 쓰는게 더 편하다
 
-from mypackage import weight_helper as wh, calculator as c \n
-wh.check_bmi(1.9, 90)   \n
-c.plus(100, 200)
+#### from mypackage import weight_helper as wh, calculator as c
+#### wh.check_bmi(1.9, 90)
+#### c.plus(100, 200)
 
 
 
