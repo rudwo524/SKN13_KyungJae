@@ -64,8 +64,6 @@ import 구문: [from 사용할 것의 경로] import 사용할 것 [as 별칭] [
 #### pip install pandas  // pandas 설치
   
 
-pip show pandas // install한 pandas의 license를 보여줌
-
 pip show pandas : install 된 것의 license를 출력해줌
 
   
