@@ -109,3 +109,4 @@ Data Structure
   - Stack: First-In-Last-Out
   - Queue: First-In-First-Out
 
+### 사용자 정의 Exception 클래스 구현
