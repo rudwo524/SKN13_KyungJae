@@ -66,6 +66,20 @@ import 구문: [from 사용할 것의 경로] import 사용할 것 [as 별칭] [
 
 pip show pandas : install 된 것의 license를 출력해줌
 
-  
+
+
+### 오류
+1. 처리 가능한 오류
+2. 처리 가능하지 않은 오류
+
+#### Exception Handling(예외 처리)
+
+Exception: 함수나 메소드가 처리 도중 다음 명령문을 실행할 수 없는 상황
+Exception(예외) : 오류 중 처리가능한 것을
+Exception Handling : 그리고 그 예외를 처리하는 것
+
+
+
+
 
 
