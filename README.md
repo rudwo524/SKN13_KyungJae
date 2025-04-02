@@ -43,15 +43,14 @@ import 구문: [from 사용할 것의 경로] import 사용할 것 [as 별칭] [
 
 
 
-#### import mypackage.weight_helper, mypackage.calculator
-#### mypackage.weight_helper.check_bmi(1.7, 60)
-#### mypackage.calculator.plus(10, 20)
-
+import mypackage.weight_helper, mypackage.calculator   
+mypackage.weight_helper.check_bmi(1.7, 60)   
+mypackage.calculator.plus(10, 20)   
 에 비해 from 절을 쓰는게 더 편하다
 
-#### from mypackage import weight_helper as wh, calculator as c
-#### wh.check_bmi(1.9, 90)
-#### c.plus(100, 200)
+from mypackage import weight_helper as wh, calculator as c   
+wh.check_bmi(1.9, 90)   
+c.plus(100, 200)
 
 
 
@@ -62,10 +61,7 @@ import 구문: [from 사용할 것의 경로] import 사용할 것 [as 별칭] [
 
 #### pip install pandas  // pandas 설치
   
-
 pip show pandas : install 된 것의 license를 출력해줌
-
-
 
 ### 오류
 1. 처리 가능한 오류:
@@ -81,12 +77,9 @@ pip show pandas : install 된 것의 license를 출력해줌
 
 ### Exception Handling(예외 처리)
 
-  Exception: 함수나 메소드가 처리 도중 다음 명령문을 실행할 수 없는 상황
-
-  Exception(예외) : 오류 중 처리가능한 것을
-  
-  Exception Handling : 그 예외를 처리하는 것
-
+  Exception: 함수나 메소드가 처리 도중 다음 명령문을 실행할 수 없는 상황   
+  Exception(예외) : 오류 중 처리가능한 것   
+  Exception Handling : 그 예외를 처리하는 것   
 
 ### try, except 구문
 
@@ -117,3 +110,5 @@ Data Structure
 ### 어제 꺼 review(패키지 모듈, exception 처리)
 
 모듈(python script file) -> 재사용가능한 코드들(class, variables, functions)
+
+
