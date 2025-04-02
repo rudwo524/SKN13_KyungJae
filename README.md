@@ -154,3 +154,62 @@ a.read(): bytes
 
 a = open(파일경로, "wb)
 a.write(bytes)
+
+
+
+
+
+
+
+## Database
+
+DB - 지속적으로 유지, 관리되어야 하는 데이터들의 집합
+
+RDB : Relational Database
+
+DBMS : 
+
+
+
+### Query문
+
+#### DML(Data Manipulation Language)
+
+Insert : 
+
+Delete :  
+ 
+Update: 
+
+Select :
+
+#### DDL(Data Definition Language)
+
+Create : 
+
+Alter:
+
+Drop:
+
+Truncate(?) : Clear Data
+
+#### DCL(Data Control Language)
+
+Grant:
+
+Revoke:
+
+
+#### user_id 만들기
+
+create 뭘만들지 나머지설정   
+create user my_id@localhost identified by 1111
+
+
+username: my_id
+passwd:1111
+
+
+계정 만들 수 있는 권한 필요
+
+
