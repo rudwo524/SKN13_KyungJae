@@ -110,3 +110,10 @@ Data Structure
   - Queue: First-In-First-Out
 
 ### 사용자 정의 Exception 클래스 구현
+
+
+## 0402
+
+### 어제 꺼 review(패키지 모듈, exception 처리)
+
+모듈(python script file) -> 재사용가능한 코드들(class, variables, functions)
