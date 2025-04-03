@@ -215,3 +215,55 @@ passwd:1111
 계정 만들 수 있는 권한 필요
 
 
+
+## 데이터 타입
+
+- 문자열
+   
+   - CHAR(n)
+    - varchar(n0
+    - TINYNEXT
+    - TEXT
+    - MEDIUMTEXT(n)
+    - LONGTEXT(n)
+
+- Number
+   
+   -정수
+         - TINYINT
+         - BOOLEAN
+         -SMALLINT
+         -INT
+         -BIGINT
+   
+   -실수
+        - DECIMAL
+        - FLOAT
+        - DOUBLE
+
+- 날짜
+
+- DATE
+    - TIME
+    - DATETIME
+    - YEAR
+
+- 결측치
+
+   
+   -NULL
+    -없는 값, 모르는 값, 수집되지 않은 값
+
+## KEY값
+
+- PRIMARY KEY
+
+- FOREIGN KEY
+
+- UNIQUE KEY
+
+
+
+
+
+
