@@ -169,35 +169,37 @@ RDB : Relational Database
 
 DBMS : 
 
+## SQL(Structured Query Language)
+
 
 
 ### Query문
 
 #### DML(Data Manipulation Language)
 
-Insert : 
+INSERT : 
 
-Delete :  
+DELETE :  
  
-Update: 
+UPDATE: 
 
-Select :
+SELECT :
 
 #### DDL(Data Definition Language)
 
-Create : 
+CREATE : 
 
-Alter:
+ALTER:
 
-Drop:
+DROP:
 
-Truncate(?) : Clear Data
+TRUNCATE(?) : Clear Data
 
 #### DCL(Data Control Language)
 
-Grant:
+GRANT:
 
-Revoke:
+REVOKE:
 
 
 #### user_id 만들기
