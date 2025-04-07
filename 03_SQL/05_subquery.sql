@@ -1,3 +1,6 @@
+-- l = [1, 2, 3, 4, 5]
+-- where name = "홍길동"
+-- where salary > avg(salary)
 
 /* **************************************************************************
 서브쿼리(Sub Query)
@@ -22,8 +25,13 @@
 
 - 서브쿼리는 반드시 ( ) 로 묶어줘야 한다.
 ************************************************************************** */
+use hr_join;
 -- 직원_ID(emp.emp_id)가 120번인 직원과 같은 업무(emp.job_id)를 하는 직원의 id(emp_id),이름(emp.emp_name), 업무(emp.job_id), 급여(emp.salary) 조회
+select job_id from emp where emp_id = 120;
 
+select emp_id, emp_name, job_id, salary
+from   emp
+where  job_id = (select job_id from emp where emp_id = 120); -- 120번 직원의 job_id
 
 -- 직원_id(emp.emp_id)가 115번인 직원과 같은 업무(emp.job_id)를 하고 같은 부서(emp.dept_id)에 속한 직원들을 조회하시오.
 

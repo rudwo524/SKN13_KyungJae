@@ -294,21 +294,28 @@ sql에서는
     - 조건수식이 True이면 참, False이면 거짓 을 출력
 
 - ifnull(기준컬럼(값), 기본값)
-    - 
+    - df 
 
 
 
 
 
-함수 - 날짜, 시간 처리 함수
+#### 함수 - 날짜, 시간 처리 함수
 
 
 
+### Join
 
 
 
+#### Inner Join
+    - 조인 연산 조건을 만족하는 행들을 합친다.
 
+#### Outer Join
+    -  조인 연산 조건을 만족하지 않는 행들도 포함해서 합친다.
 
-
-
+종류 : 
+    - left  outer join:  구문상 소스 테이블이 왼쪽
+    - right outer join: 구문상 소스 테이블이 오른쪽
+    - full outer join:  둘다 소스 테이블 (Mysql은 지원하지 않는다. - union 연산을 이용해서 구현)
 
