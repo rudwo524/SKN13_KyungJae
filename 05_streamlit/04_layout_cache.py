@@ -54,7 +54,7 @@ with col2:
 # @st.cache_data
 #   - data를 반환하는 함수에 사용
 #   - 파이썬 value, DataFrame
-# @st.cache.resource
+# @st.cache_resource
 #   - resource를 반환하는 함수에 사용
 #   - 머신러닝/딥러닝 모델, Database 연결등
 #  
@@ -63,7 +63,7 @@ with col2:
 
 
 # 데이터를 제공하는 함수.
-@st.cache_data
+@st.cache_data   ## 고정 데이터를 불러오는 경우
 def get_data():
     print("get_data")
     df = pd.read_csv("data/boston_housing.csv")
