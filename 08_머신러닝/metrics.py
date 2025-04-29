@@ -21,7 +21,7 @@ def plot_confusion_matrix(y, pred, title=None):
         plt.title(title)
     plt.show()
 
-def print_binary_classification_metrics(y, pred, title=None):
+def print_binary_classification_metrics(y, pred, proba= None, title=None):
     """정확도, 재현율, 정밀도, f1 점수를 계산해서 출력하는 함수
     Args
         y: ndarray - 정답
